@@ -1,9 +1,9 @@
 // src/app/components/content/content.component.ts
 import { Component, inject, signal, computed } from '@angular/core';
-import { TaskService } from '../../services/task.service';
-import { TaskFormComponent } from '../task-form/task-form.component';
-import { TaskControlsComponent } from '../task-controls/task-controls.component';
-import { TaskCardComponent } from '../task-card/task-card.component';
+import { TaskService } from '../../services/tareasservice';
+import { TaskFormComponent } from '../tareas-form/tareasform.component';
+import { TaskControlsComponent } from '../tareas-controls/tareascontrols.component';
+import { TaskCardComponent } from '../tareascard/tareascard.component';
 
 @Component({
   selector: 'app-content',
